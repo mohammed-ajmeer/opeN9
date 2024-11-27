@@ -1,0 +1,984 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.parent
+{
+    color: white;
+    background-color: black;
+    position: relative;
+}
+.parent .navbar
+{
+    width: 100%;
+    border: 1px solid transparent;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 9999999;
+    background-color: black;
+    padding: 0px 100px;
+}
+.home
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a1
+{
+    border: 1px solid transparent;
+}
+.a2
+{
+    width: 60%;
+}
+.a3
+{
+    width: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.a4
+{
+width: 5%;
+}
+.homepage
+{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1
+{
+    height: 300px;
+    width: 600px;
+    border: 1px solid transparent;
+}
+.b1 h1
+{
+    margin-left: 10%;
+}
+.skewpage
+{
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.page2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.dd
+{
+    height: 320px;
+    width: 210px;
+    border: 1px solid;
+    position: relative;
+    background-color: black;
+    border-radius: 20px;
+}
+.d1
+{
+    
+    /* transform: rotate(30deg); */
+    transform: skew(2deg) perspective(20px) rotateY(1deg);
+}
+.d2
+{
+    transform: skew(2deg) perspective(20px) rotateY(1deg);
+}
+.d3
+{
+    transform: skew(1deg) perspective(20px) rotateY(1deg);
+}
+.d4
+{
+    height: 330px;
+    position: relative;
+    right: 15px;
+    width: 230px;
+}
+.d5
+{
+    transform: skew(2deg) perspective(20px) rotateY(1deg);
+}
+.d6
+{
+    transform: skew(2deg) perspective(20px) rotateY(1deg);
+}
+.d7
+{
+    transform: skew(1deg) perspective(20px) rotateY(1deg);
+}
+.ii
+{
+    height: 230px;
+    width: 180px;
+    border: 1px solid transparent;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.img1 img
+{
+    height: 230px;
+    width: 180px;
+    border-radius: 10px;
+}
+.img2 img
+{
+    height: 230px;
+    width: 180px;
+    border-radius: 10px;
+}
+.img3 img
+{
+    height: 230px;
+    width: 180px;
+    border-radius: 10px;
+}
+
+.img4{
+    width: 200px;
+}
+
+.img4 img
+{
+    height: 230px;
+    width: 200px;
+    border-radius: 10px;
+}
+.img5 img
+{
+    height: 230px;
+    width: 180px;
+    border-radius: 10px;
+}
+.img6 img
+{
+    height: 230px;
+    width: 180px;
+    border-radius: 10px;
+}
+.img7 img
+{
+    height: 230px;
+    width: 180px;
+    border-radius: 10px;
+}
+.img1 img:hover
+{
+    z-index: 1001;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img2 img:hover
+{
+    z-index: 1000;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img3 img:hover
+{
+    z-index: 1000;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img4 img:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 1000;
+}
+.img5 img:hover
+{
+    z-index: 1000;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img6 img:hover
+{
+    z-index: 1000;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.img7 img:hover
+{
+    z-index: 1000;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.dd:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 1000;
+}
+.ii :target
+{
+    display: block;
+}
+.ii button
+{
+    padding: 3px 15px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 40px;
+    left: 50px;
+    background-color: gainsboro;
+    border: transparent;
+}
+.feature
+{
+
+    width: 100%;
+    border: 1px solid transparent;
+}
+.display
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.ee
+{
+    height: 500px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 0px;
+}
+.endpoint span
+{
+    color: yellow;
+}
+.ie
+{
+    height: 300px;
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin: 8%;
+}
+.ie img
+{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+}
+.endpoint2 span
+{
+    color: yellow;
+}
+.ee:hover
+{
+    /* margin-bottom: 50px; */
+    transition-duration: 1s;
+    animation-name: ajee;
+    animation-duration: 1s;
+}
+
+.b2
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.j1
+{
+    padding: 8px 30px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.j2
+{
+    padding: 8px 30px;
+    border-radius: 10px;
+}
+.j1:hover
+{
+    background-color: white;
+}
+.j2:hover
+{
+    background-color: yellow;
+}
+.ai
+{
+    height: 50px;
+    width: 90%;
+    border: 1px solid transparent;
+    margin-top: -30px;
+    margin-left: 5%;
+}
+.ai img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.frog
+{
+    height: 50px; 
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.op
+{
+    height: 50px; 
+    width: 70%; 
+    border: 1px solid transparent;
+}
+.op p
+{
+    margin-left: 20px;
+}
+.op span
+{
+    color: darkgrey;
+}
+.home
+{
+    width: 50%;
+}
+.topseller
+{
+    width: 100%;
+    border: 1px solid transparent;
+    margin-top: 50px;
+}
+.topseller span
+{
+    color: yellow;
+}
+.topseller h1
+{
+    margin-left: 10%;
+}
+.tt
+{
+    height: 240px;
+    width: 200px;
+    border: 1px solid transparent;
+    margin-top: 80px;
+}
+.day
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -40px;
+}
+.day i
+{
+    margin-top: 80px;
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+.fc
+{
+    height: 110px;
+    width: 110px;
+    border: 1px solid transparent;
+    margin: 35px;
+    border-radius: 70px;
+    position: relative;
+}
+.fc h5
+{
+    position: absolute;
+    left: 85px;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.tt h4
+{
+    padding:0px 20px;
+}
+.tt p
+{
+    padding: 0px 20px;
+    color: gray;
+    text-align: center;
+}
+.fc h5:hover
+{
+    transform: rotatey(360deg);
+    transition-duration: 1s;
+    background-color: yellow;
+    color: black;
+}
+.di1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.di1 B
+{
+    margin-right: 70PX;
+}
+.di1 h1
+{
+    margin-left: 70px;
+}
+.di2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.discoveritem
+{
+    width: 100%;
+}
+.bi
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bi
+{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 0.2px solid;
+    padding: 5px 25px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+.bi i
+{
+    margin-right: 10px;
+}
+.bi:hover
+{
+    transform: rotatey(360deg);
+    transition-duration: 1.5s;
+    background-color: yellow;
+    color: black;
+}
+.bi3
+{
+    width: 100%;
+    /* display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 300px 300px 300px 300px;
+    border: 1px solid transparent;
+    gap: 50px;
+    row-gap: 50px; */
+    text-align: center;
+    margin-top: 50px;
+}
+.gg 
+{
+    border: 1px solid transparent;
+    animation-name: loading;
+}
+.nionback
+{
+    width: 100%;
+    border: 1px solid transparent;
+    background-image: url(wave.jpg);
+    background-size: cover;
+    margin-top: 70px;
+    position: relative;
+    background-attachment: fixed;
+    border-radius: 200px 0px 200px 0px;
+    grid-auto-flow: column;
+}
+.fix
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fix h1
+{
+    font-size: 100px;
+    letter-spacing: 10px;
+    /* position: absolute;
+    top: 200px;
+    left: 450px; */
+    font-family:"poppins",sans-serif;
+    background-attachment: fixed;
+    color: black;
+    text-shadow: 3px 3px 20px;
+}
+.gap1
+{
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.gap2
+{
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+}
+.fix2
+{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+.fix2 button
+{
+    padding: 7px 40px;
+    background-color: transparent;
+    border-radius: 35px;
+    font-size: 30px;
+}
+.fix3
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    overflow: hidden;
+}
+.fix3 button
+{
+    padding: 7px 40px;
+    background-color: transparent;
+    border-radius: 35px;
+    font-size: 30px;
+}
+.week
+{
+    width: 100%;
+    border: 1px solid transparent;
+}
+.cll
+{
+    height: 420px;
+    width: 350px;
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 150px 150px;
+    gap: 10px;
+    padding: 17px;
+    border-radius: 20px;
+}
+.ww
+{
+    width: 300px;
+}
+/* .ie img
+{
+    width: 200px;
+} */
+.pj
+{
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.na
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.na b
+{
+    margin-right: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.na h1
+{
+    margin-left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.week2
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.pj1
+{
+    background-image: url(scorila1.jpg);
+    background-size: cover;
+}
+.pj2
+{
+    background-image: url(elephant1.jpg);
+    background-size: cover;
+}
+.pj3
+{
+    background-image: url(dog1.jpg);
+    background-size: cover;
+}
+.pj4
+{
+    background-image: url(whitebear1.jpg);
+    background-size: cover;
+}
+.pj5
+{
+    background-image: url(cat1.jpg);
+    background-size: cover;
+}
+.pj6
+{
+    background-image: url(parrot.jpg);
+    background-size: cover;
+}
+.pj7
+{
+    background-image: url(rabbit.jpg);
+    background-size: cover;
+}
+.pj8
+{
+    background-image: url(fish.jpg);
+    background-size: cover;
+}
+.pj9
+{
+    background-image: url(dog1.jpg);
+    background-size: cover;
+}
+.pj10
+{
+    background-image: url(parrot.jpg);
+    background-size: cover;
+}
+.pj11
+{
+    background-image: url(whitebear1.jpg);
+    background-size: cover;
+}
+.pj12
+{
+    background-image: url(scorila1.jpg);
+    background-size: cover;
+}
+.ex
+{
+    height: 500px;
+    width: 350px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.kk
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.vc2 i
+{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.vc3 i
+{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.ex:hover
+{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    /* transform: rotateX(360deg); */
+}
+.step
+{
+    width: 100%;
+    border: 1px solid transparent;
+    margin-top: 100px;
+}
+.st
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sd
+{
+    height: 400px;
+    width: 300px;
+    border: 1px solid transparent;
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px ;
+}
+.step h1
+{
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+    letter-spacing: 3px;
+}
+.sd i
+{
+    font-size: 50px;
+    padding: 20px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.sd p
+{
+    color: gray;
+    font-size: 20px;
+}
+.sd h3
+{
+    font-size: 30px;
+    padding: 20px;
+}
+.sd font
+{
+    font-size: 16px;
+    color: gray;
+}
+.ylpage
+{
+    height: 300px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0px 100px 0px 100px;
+    background-image: url(ylpagent.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ylpage button
+{
+    text-align: center;
+    align-items: center;
+    padding: 7px 20px;
+    margin-left: 25%;
+    margin-top: 7%;
+    background-color: white;
+    border-radius: 20px;
+    border: transparent;
+}
+.ylpage .bh
+{
+    background-color: yellow;
+}
+.ylpage .bh2
+{
+    margin-top: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+.final
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fi
+{
+    height: 300px;
+    width: 250px;
+    border: 1px solid transparent;
+    margin-top: 100px;
+}
+.fi1 span 
+{
+    color: yellow;
+}
+.fi1 h1
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fi2 p
+{
+    color: gray;
+}
+.fi3 p
+{
+    color: gray;
+}
+.fi4 p
+{
+    color: gray;
+}
+.icon
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.icon i
+{
+    padding: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.ww
+{
+    border: 1px solid;
+    border-radius: 20px;
+}
+.home .hp:hover
+{
+    color: yellow;
+}
+
+
+
+@keyframes ajee
+{
+    0%
+    {
+    
+    }
+    50%
+    {
+        transform: rotateX(45deg);
+        transition-duration: 1s;
+        transition-delay: 1s;
+    }
+    100%
+    {
+
+    }
+}
+
+
+@media(max-width:1020px)
+{
+    .home
+    {
+        display: none;
+    }
+    .navbar.a4.fa-bars
+    {
+        display: block;
+    }
+    .navbar
+    {
+        position: relative;
+    }
+    /* .a3 .fa-bars
+    {
+        display: none;
+    } */
+    .a4 i
+    {
+        position: absolute;
+    }
+    
+    .fix h1
+    {
+        font-size: 40px;
+        padding: 50px 100px;
+
+    }
+
+}
+@media(max-width:1200px)
+{
+    .display
+    {
+        flex-wrap: wrap;
+    }
+    .ee
+    {
+
+        row-gap: 100px;
+    }
+    .page2
+    {
+        gap: 50px;
+        row-gap: 50px   ;
+    }
+    .contactbtn
+    {
+        display: none;
+    }
+    .bi
+    {
+        margin-top: 20px;
+    }
+}
+@media(max-width:500px)
+{
+    .fi1
+    {
+        height: 100px;
+    }
+    .ie img
+    {
+        width: 200px;
+    }
+    .fix2
+    {
+        display: none;
+    }
+    .fix3
+    {
+        display: none;
+    }
+}
+
+@media(max-width:320px)
+{
+    .ex
+    {
+        width: 300px;
+    }
+    .cll
+    {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 130px 130px;
+    }
+}
+@media(max-width:1300px)
+{
+    .day
+    {
+        flex-wrap: wrap;
+    }
+    .day i
+    {
+        display: none;
+    }
+}
